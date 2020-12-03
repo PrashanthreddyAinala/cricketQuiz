@@ -44,10 +44,10 @@ for(var i=0; i<allQuestions.length; i++) {
 }
 console.log(chalk.green("Your total score is : " + score));
 if(score > 11) {
-  console.log(chalk.green("Congratulations!! you have achived a heighest score."));
+  console.log(chalk.green("Congratulations!! you have achived a highest score."));
 }
 console.log();
 
-console.log(chalk.yellowBright.bgBlue("Heighest ranks   \n 1. Mohan: 12    \n 2. Vinay: 11    "));
+console.log(chalk.yellowBright.bgBlue("Highest ranks    \n 1. Mohan: 12    \n 2. Vinay: 11    "));
 console.log();
-console.log(chalk.greenBright("Note : Please forward a screenshot if you achived the heighest score"));
+console.log(chalk.greenBright("Note : Please forward a screenshot if you achived the highest score"));
